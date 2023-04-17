@@ -5,13 +5,9 @@ public class Main {
         Rabbit rabbit = new Rabbit("snowball", 3, "black");
         Toy robot = new Toy("curious George");
 
-        Animal[] animals = new Animal[]{coco, max, rabbit};
-        for (Animal animal : animals) {
-            animal.play();
+        Action[] animals = new Action[]{coco, max, rabbit, robot};
+        for (Action friend : animals) {
+            friend.play();
         }
-
-        robot.play();
-
-
     }
 }
