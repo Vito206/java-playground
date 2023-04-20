@@ -6,8 +6,14 @@ public class Rabbit extends Animal {
         this.eyeColor = eyeColor;
     }
 
-    @Override
+   @Override
     public void play() {
+
         System.out.println("Rabbit " + name + " is idling");
     }
+    public void play(Toy toy) {
+
+        System.out.println("Rabbit " + name + " is jumping with the toy " + toy);
+    }
+
 }

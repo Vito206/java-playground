@@ -6,6 +6,4 @@ public abstract class Animal implements Action {
         this.name = name;
         this.age = age;
     }
-
-    public abstract void play();
 }

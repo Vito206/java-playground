@@ -12,6 +12,7 @@ public class Cat extends Animal {
     }
 
     public void play(Toy toy) {
+
         System.out.println("Cat " + name + " is playing with the toy " + toy);
     }
 }
